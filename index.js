@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 const CHANNEL_ACCESS_TOKEN = 'jP4hShb0K05lC0qKXSURTDh4bE1O3eSDcAVRWgmxttnfP33wp7cZMJeXnbSDLNLlGLniKau/Z2J9sGa/+QyjVMidZFCoBIB41u2fUIjKQAwnP9/3dKO98K4L9LrMdo/8nvWmfUG/hjVHR0JeWlozLwdB04t89/1O/w1cDnyilFU=';
-const GROUP_ID = 'C1ba62a0c7f3e71bd7df78eeee1c82446';
+const GROUP_ID = 'C653fd0d26a32a61371c1f3e837dbfe36';
 
 // รับ event จาก LINE webhook
 app.post('/webhook', (req, res) => {
